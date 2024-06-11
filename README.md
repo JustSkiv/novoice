@@ -1,5 +1,7 @@
 # NoVoice Messages
 
+[Russian README](README-RU.md)
+
 **NoVoice Messages** is a web project that highlights the drawbacks of sending voice messages and encourages the use of
 text messages instead. If you want to hint to the person you're talking to that you shouldn't do that, just send them
 the [link](https://novoice.me/)!
