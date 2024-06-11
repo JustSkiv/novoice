@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecebeb;
+    margin: 0;
+    padding: 0;
+}
+
+.explanation h2.bad {
+    color: darkred;
+}
+
+.github-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.explanation h2.good {
+    color: green;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.meta-question h2, .explanation h2 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.section h3 {
+    font-weight: normal;
+    display: inline;
+}
+
+.details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out, border 0.3s ease-out;
+    background-color: #f0f0f0;
+    border: 0;
+    padding: 0 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.details.show {
+    border: 1px dotted #ccc;
+    padding: 10px;
+}
+
+.toggle {
+    cursor: pointer;
+    color: #00acc1;
+    text-decoration: underline dotted;
+    margin-left: 5px;
+}
+
+.explanation ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.explanation li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #00acc1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer i {
+    margin-right: 5px;
+}
